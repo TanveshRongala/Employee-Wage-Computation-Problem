@@ -13,8 +13,6 @@ public static void main(String[] args)
 	if(empCheck == isFullTime)
 	{
 		System.out.println("Employee is Present");
-		int DailyEmpWage=WagePerHr*FullDayHr;
-		System.out.println("DailyEmpWage::"+DailyEmpWage);
 	empHr=8;
 		
 		
