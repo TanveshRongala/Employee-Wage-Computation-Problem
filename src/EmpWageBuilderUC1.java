@@ -1,5 +1,7 @@
 
 public class EmpWageBuilderUC1 {
+	
+public static void main(String[] args)	
 	{
 	int isFullTime=1;
 	int isPartTime=2;
