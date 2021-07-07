@@ -7,10 +7,13 @@ public class EmpWageBuilderUC1 {
 	int FullDayHr=8;
 	int empHr;
 	
+	double empCheck = Math.floor(Math.random()*10)%2;	
 	double empCheck = Math.floor(Math.random()*10)%3;
 	if(empCheck == isFullTime)
 	{
 		System.out.println("Employee is Present");
+		int DailyEmpWage=WagePerHr*FullDayHr;
+		System.out.println("DailyEmpWage::"+DailyEmpWage);
 	empHr=8;
 		
 		
