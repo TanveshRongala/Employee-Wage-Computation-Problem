@@ -8,8 +8,7 @@ public static void main(String[] args)
 	int WagePerHr=20;
 	int FullDayHr=8;
 	int empHr;
-	
-	double empCheck = Math.floor(Math.random()*10)%2;	
+		
 	double empCheck = Math.floor(Math.random()*10)%3;
 	if(empCheck == isFullTime)
 	{
