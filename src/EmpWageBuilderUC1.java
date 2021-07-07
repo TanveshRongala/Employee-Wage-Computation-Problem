@@ -19,7 +19,7 @@ public static void main(String[] args)
 	}
 	else if(empCheck == isPartTime)
 	{
-		System.out.println("Employee is Abscent");
+		System.out.println("Employee is Absent");
 		empHr=4;
 	}else
 	{
